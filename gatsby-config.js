@@ -12,10 +12,10 @@ module.exports = {
     title: `Muslims on Mars`,
     author: {
       name: `Juan Gallardo`,
-      summary: `Future forward Muslim.`,
+      summary: `A future forward Muslim.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A science fiction blog imagining Muslims on the planet Mars.`,
+    siteUrl: `https://muslimsonmars.com/`,
     social: {
       twitter: `jgallardo949`,
     },

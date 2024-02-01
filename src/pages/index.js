@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -49,6 +49,15 @@ const BlogIndex = ({ data, location }) => {
                     }}
                     itemProp="description"
                   />
+                  <Link to={post.fields.slug}>
+                    <GatsbyImage
+                      image={
+                        getImage(post.frontmatter.featuredImage)
+                      }
+                      alt={post.frontmatter.featuredImageAlt}
+                      className="h-full w-full"
+                    />
+                  </Link>
                 </section>
               </article>
             </li>
@@ -85,6 +94,15 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(
+                width: 240
+                placeholder: BLURRED
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
         }
       }
     }

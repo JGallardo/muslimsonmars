@@ -113,6 +113,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
 
     type Frontmatter {
+      featuredImageAlt: String
       title: String
       description: String
       date: Date @dateformat
