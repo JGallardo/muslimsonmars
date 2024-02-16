@@ -55,7 +55,7 @@ const BlogIndex = ({ data, location }) => {
                         getImage(post.frontmatter.featuredImage)
                       }
                       alt={post.frontmatter.featuredImageAlt}
-                      className="h-full w-full"
+                      className="h-full"
                     />
                   </Link>
                 </section>
