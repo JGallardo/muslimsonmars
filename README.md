@@ -2,15 +2,15 @@
 
 1.  **Purpose - Technical**
 
-This is just a fun hobby project for me to learn and share about building a blog.
+This is just a fun hobby project for me to learn to build a React-based blog.
 
-1.  **Purpose - Social**
+2.  **Purpose - Social**
 
-I believe that instead of romanticizing the past generations, we should look forward with enthusiasm and inspire the next generations.
+I believe that instead of romanticizing the past times, we should look forward with enthusiasm and inspire our future.
 
-1.  **Purpose - Spiritual**
+3.  **Purpose - Spiritual**
 
-For my own spiritual reasons I have enjoyed researching topics that will be written about as time goes on.
+Inshallah others may find deeper connection to our religion or non-Muslims be further interested in it by seeing how our religion and science go together.
 
 
 ## 🚀 Quick start
