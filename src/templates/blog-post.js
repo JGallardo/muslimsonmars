@@ -18,7 +18,7 @@ const BlogPostTemplate = ({
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
+        <header className="pb-4">
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
