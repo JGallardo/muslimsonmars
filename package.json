@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "muslims-on-mars",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Science fiction blog about Muslims on Mars",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Juan Gallardo <jgallardo720@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/JGallardo/muslimsonmars/issues"
   },
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.0.17",
@@ -32,14 +32,14 @@
     "prettier": "^2.8.8",
     "tailwindcss": "^3.4.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/JGallardo/muslimsonmars#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/JGallardo/muslimsonmars.git"
   },
   "scripts": {
     "build": "gatsby build",
