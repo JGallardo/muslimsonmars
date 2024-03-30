@@ -263,7 +263,7 @@ a:focus {
 }
 
 .post-list-item p {
-  margin-bottom: var(--spacing-0);
+  margin-bottom: var(--spacing-4);
 }
 
 .post-list-item h2 {
